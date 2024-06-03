@@ -1,0 +1,1 @@
+The server part of the software system for managing and monitoring the ApexiBee apiary. Coursework for the university. Technologies: .NET, MS SQL Server, ASP.NET Core, EF Core. Builded using Clear architecture.
