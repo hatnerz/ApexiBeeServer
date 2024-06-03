@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApexiBee.Domain", "Domain\ApexiBee.Domain.csproj", "{4D6331D1-CF6F-4052-AE8C-574B4C77F695}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApexiBee.Persistance", "Persistance\ApexiBee.Persistance.csproj", "{1C61860F-05BD-4F9F-A7CE-57F0924FDB29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApexiBee.Infrastructure.Interfaces", "Infrastructure.Interfaces\ApexiBee.Infrastructure.Interfaces.csproj", "{B2DE36BA-6B7C-48E1-8083-D87C198C22E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApexiBee.API", "ApexiBeeApi\ApexiBee.API.csproj", "{453843F9-BA7B-4F91-AC70-F73146B257FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApexiBee.Application", "ApexiBee.Application\ApexiBee.Application.csproj", "{AAB045F2-0F8F-4933-B302-1AF8E389D82A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApexiBee.Infrastructure.Implementation", "ApexiBee.Infrastructure.Implementation\ApexiBee.Infrastructure.Implementation.csproj", "{5027ABDC-7077-441C-A847-CE3F2DCE3ED8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D6331D1-CF6F-4052-AE8C-574B4C77F695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6331D1-CF6F-4052-AE8C-574B4C77F695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6331D1-CF6F-4052-AE8C-574B4C77F695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6331D1-CF6F-4052-AE8C-574B4C77F695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C61860F-05BD-4F9F-A7CE-57F0924FDB29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C61860F-05BD-4F9F-A7CE-57F0924FDB29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C61860F-05BD-4F9F-A7CE-57F0924FDB29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C61860F-05BD-4F9F-A7CE-57F0924FDB29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2DE36BA-6B7C-48E1-8083-D87C198C22E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DE36BA-6B7C-48E1-8083-D87C198C22E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DE36BA-6B7C-48E1-8083-D87C198C22E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DE36BA-6B7C-48E1-8083-D87C198C22E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453843F9-BA7B-4F91-AC70-F73146B257FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453843F9-BA7B-4F91-AC70-F73146B257FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453843F9-BA7B-4F91-AC70-F73146B257FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453843F9-BA7B-4F91-AC70-F73146B257FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB045F2-0F8F-4933-B302-1AF8E389D82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB045F2-0F8F-4933-B302-1AF8E389D82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB045F2-0F8F-4933-B302-1AF8E389D82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB045F2-0F8F-4933-B302-1AF8E389D82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5027ABDC-7077-441C-A847-CE3F2DCE3ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5027ABDC-7077-441C-A847-CE3F2DCE3ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5027ABDC-7077-441C-A847-CE3F2DCE3ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5027ABDC-7077-441C-A847-CE3F2DCE3ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE3497E6-0005-4336-897C-D759C7402007}
+	EndGlobalSection
+EndGlobal
